@@ -8,7 +8,7 @@ const History = new Book(
     25,
     25,
     "true",
-    
+    "November 2, 2016 04:25:25 IST",
 )
 
 
@@ -20,6 +20,7 @@ const Maths = new Book (
     25,
     25,
     "false",
+    "December 12, 2016 08:25:25 IST",
 
 )
 
@@ -30,6 +31,7 @@ const English = new Book(
     45,
     45,
     "false",
+    "November 25, 2016 12:25:25 IST",
 )
 
 const Science = new Book(
@@ -40,6 +42,7 @@ const Science = new Book(
     52,
     52,
     "true",
+    "July 30, 2015 06:45:25 IST",
 
 );
 
@@ -51,8 +54,10 @@ const Biology = new Book(
     57,
     50,
     "true",
+    "May 21, 2016 02:25:25 IST"
 );
 
 console.log("This is a Maths Book", Maths);
 console.log(English);
-console.log("Biology");
+console.log("Biology", Biology);
+console.log("this is the time at which i bought the book", Biology.oldBook());
