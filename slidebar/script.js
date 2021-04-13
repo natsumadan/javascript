@@ -17,12 +17,12 @@ const content = `
 <article>
   <h1>${History.name}</h1>
   <ul>
-    <li> Volume:
+    <li>${History.pages}
     </li>
-    <li>Color:
+    <li>${History.bookstatus}
     </li>
-    <li>Age:</li>
-    <li>Number of Pockets</li>
+    <li>${History.ISBN}</li>
+    <li>${History.publisher}</li>
     </ul>
     </article>
 </main>`;
